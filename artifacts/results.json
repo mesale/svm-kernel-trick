@@ -1,0 +1,44 @@
+{
+  "dataset": {
+    "n_samples": 600,
+    "noise": 0.25,
+    "test_size": 0.2
+  },
+  "selected_model": {
+    "kernel": "RBF",
+    "params": {
+      "svc__C": "10",
+      "svc__gamma": "1"
+    },
+    "cv_balanced_accuracy": 0.95,
+    "test_balanced_accuracy": 0.9333,
+    "test_accuracy": 0.9333,
+    "test_f1": 0.9333
+  },
+  "all_kernels": [
+    {
+      "Kernel": "RBF",
+      "Parameters": "C=10, gamma=1",
+      "CV Balanced Acc": 0.95,
+      "Test Accuracy": 0.9333,
+      "Test Balanced Acc": 0.9333,
+      "Test F1": 0.9333
+    },
+    {
+      "Kernel": "Polynomial",
+      "Parameters": "C=10, gamma=1, degree=3",
+      "CV Balanced Acc": 0.9458,
+      "Test Accuracy": 0.925,
+      "Test Balanced Acc": 0.925,
+      "Test F1": 0.9256
+    },
+    {
+      "Kernel": "Linear",
+      "Parameters": "C=1",
+      "CV Balanced Acc": 0.8646,
+      "Test Accuracy": 0.8917,
+      "Test Balanced Acc": 0.8917,
+      "Test F1": 0.8943
+    }
+  ]
+}
